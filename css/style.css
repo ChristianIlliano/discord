@@ -4,13 +4,13 @@
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
-    font-family: Helvetica, sans-serif;
     ;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+    font-family:Helvetica, sans-serif;
 }
 
 img {
@@ -24,6 +24,7 @@ h1 {
     font-weight: 1200;
     font-size: 3rem;
     padding: 20px 0;
+    font-family: Helvetica, sans-serif;
 }
 
 .title {
@@ -41,6 +42,7 @@ p {
     padding: 10px;
     border-radius: 20px;
     color: #255ee9;
+    font-family: Helvetica, sans-serif;
 }
 
 .button-blu {
@@ -48,6 +50,7 @@ p {
     padding: 10px;
     border-radius: 20px;
     color: white;
+    font-family: Helvetica, sans-serif;
 }
 
 .flex {
@@ -57,19 +60,6 @@ p {
     gap: 30px;
 }
 
-.flex2 {
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.flex3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 .container {
     display: flex;
@@ -226,6 +216,29 @@ header {
     padding: 15px 0 0 0;
 }
 
+.wave {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    filter: invert(100%) sepia(0%) saturate(1598%) hue-rotate(160deg) brightness(106%) contrast(65%);
+    
+}
+
+.white-space {
+    max-height:  150px;
+}
+
+.wave2 {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    rotate: 180deg;
+    filter: invert(100%) sepia(0%) saturate(1598%) hue-rotate(160deg) brightness(106%) contrast(65%);
+    
+}
+
+/* layout */
+
 .layout-grande2 {
     display: flex;
     flex-direction: column;
@@ -242,6 +255,8 @@ header {
 .layout-piccolo2 > ul > li {
 margin-bottom: 20px;
 }
+
+/* text */
 
 .text-white {
     color: white;
