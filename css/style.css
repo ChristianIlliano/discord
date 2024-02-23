@@ -27,6 +27,14 @@ h1 {
     font-family: Helvetica, sans-serif;
 }
 
+h2 {
+    font-weight: 1200;
+    font-size: 2rem;
+    padding: 20px 0;
+    font-family: Helvetica, sans-serif;
+}
+
+
 .title {
     font-weight: 1200;
     font-size: 3rem;
@@ -55,9 +63,22 @@ p {
 
 .flex {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     gap: 30px;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex3 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
 }
 
 
@@ -75,6 +96,7 @@ p {
     align-items: flex-start;
     margin-left: 5%;
     margin-right: 5%;
+    gap: 40px;
 }
 
 .container2 {
@@ -164,9 +186,9 @@ header {
 
 .container-img2 {
     background-image: url(../img/stars.svg);
-    background-size: 100%;
-    background-position: center;
     background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 20%;
 }
 
 .background0 {
@@ -190,9 +212,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top: 2px solid white;
+}
+
+.container-footer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 10%;
     margin-right: 10%;
-    border-top: 2px solid white;
+    text-align: center;
 }
 
 .nav2 {
