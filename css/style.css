@@ -1,0 +1,161 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: blue;
+}
+
+/* header */
+
+.nav1{
+    padding: 15px 0
+    ;
+}
+
+header {
+    background-color: lightblue;
+}
+
+.navigator {
+    background-color: yellow;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 30%;
+    border: 1px solid black;
+}
+
+.link {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.login {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 30%;
+    border: 1px solid black;
+}
+
+/* MAIN */
+
+/* LAYOUT */
+.layout-singolo {
+    background-color: #ee82ee;
+    /* debug */
+    height: 100px;
+}
+
+.layout-singolo2 {
+    background-color: green;
+    /* debug */
+    height: 300px;
+}
+
+.layout-grande{
+    width: 60%;
+    background-color: #1e90ff;
+    height: 100px;
+}
+
+.layout-piccolo{
+    width: 40%;
+    background-color: pink;
+    height: 100px;
+}
+
+/* CONTAINER BACKGROUND */
+
+.background0 {
+    background-color: blue;
+    padding: 15px 0;
+}
+
+.background1 {
+    background-color: white;
+    padding: 15px 0
+    ;
+}
+
+.background3 {
+    background-color: lightgray;
+    padding: 15px 0;
+}
+
+/* FOOTER */
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.nav2 {
+    background-color: #20b2aa;
+    padding: 15px 0;
+}
+
+.logo-box {
+    background-color: #f08080;
+    border: dashed;
+}
+
+.button {
+    background-color: #f08080;
+    border: dashed;
+}
+
+/* Background */
+
+.background4 {
+    background-color: #23272a;
+    padding: 15px 0;
+}
+
+.background5 {
+    background-color: #23272a;
+    padding: 15px 0 0 0;
+}
+
+.layout-grande2{
+    width: 40%;
+    background-color: #f08080;
+    height: 100px;
+}
+
+.layout-piccolo2{
+    width: 15%;
+    background-color: #20b2aa;
+    height: 100px;
+    border: 1px solid white;
+}
+
